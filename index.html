@@ -7,23 +7,22 @@
         <meta charset="UTF-8">
     </head>
     <body>
+        <fieldset class="col-sm-10">
+            <legend>Operation on 3 numbers (sum, avg, func)</legend>
             
-            <fieldset class="col-sm-10">
-                <legend>Operation on 3 numbers (sum, avg, func)</legend>
-                
-                <label for="num1">Number 1</label>
-                <input id="num1" class="form-control" type="number" name="num1" />
-                <label for="num2">Number 2</label>
-                <input id="num2" class="form-control" type="number" name="num2" />
-                <label for="num3">Number 3</label>
-                <input id="num3" class="form-control" type="number" name="num3" />
-                <label for="func">Function</label>
-                <input id="func" class="form-control" type="text" name="func" />
-            </fieldset>
+            <label for="num1">Number 1</label>
+            <input id="num1" class="form-control" type="number" name="num1" />
+            <label for="num2">Number 2</label>
+            <input id="num2" class="form-control" type="number" name="num2" />
+            <label for="num3">Number 3</label>
+            <input id="num3" class="form-control" type="number" name="num3" />
+            <label for="func">Function</label>
+            <input id="func" class="form-control" type="text" name="func" />
+        </fieldset>
 
-            <button id="postBtn" class="btn btn-primary m-4">Post</button>
-            <button id="putBtn" class="btn btn-primary m-4">Put</button>
-            <button id="getBtn" class="btn btn-primary m-4">Get</button>
+        <button id="postBtn" class="btn btn-primary m-4">Post</button>
+        <button id="putBtn" class="btn btn-primary m-4">Put</button>
+        <button id="getBtn" class="btn btn-primary m-4">Get</button>
         
         <section class="result lead ml-3"></section>
         <script src="includes/script.js"></script>
